@@ -1,18 +1,11 @@
-//in here, we have imported delete button to this component.
-//created a li to store the to do text
-// added to do text and delete button to JSX
-
-
-
-
+// Function that takes a 'props' parameter
 export default function ToDoItem(props) {
 
-    //we need to import the inputValue from the input component
-    // we need to print this to the screen in the p tag
-
+    // Return the JSX for the ToDoItem component
     return <li className="toDoItem">
+        {/* Render the 'toDoText' prop */}
         <p>{ props.toDoText } </p>
-        
+        {/* Call the 'handleDelete' function when the 'Delete' button is clicked */}
         <button className="deleteButton" onClick={props.handleDelete}>Delete</button>
     </li>
 }

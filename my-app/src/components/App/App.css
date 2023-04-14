@@ -50,6 +50,7 @@ button {
   margin-bottom: 20px;
   height: 30vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
