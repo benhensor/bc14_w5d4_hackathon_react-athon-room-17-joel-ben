@@ -14,6 +14,7 @@ export default function ToDoInputTextField(props) {
   const handleAddClick = () => {
     props.handleAdd(inputValue);
     setInputValue('');
+    console.log(inputValue);
   }
 
 

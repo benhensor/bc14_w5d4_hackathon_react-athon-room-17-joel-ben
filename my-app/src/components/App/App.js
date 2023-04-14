@@ -36,11 +36,15 @@ function App() {
 
 
   return (
-    <main className="App">
-      <img src="../../../../images/soc-logo.png" className="App-logo" alt="logo" />
+        <main className="App">
+        <div className="App-logo">
+        <img src={require("./soc-logo.png")} className="App-logo" alt="logo" />
+        </div>      
       <h1>Welcome to our ToDo App!</h1>
       <ToDoInputTextField handleAdd={handleAdd}/>
-      <ToDoList toDoList={toDoList} handleDelete={handleDelete}/>
+      <ToDoList toDoList={toDoList} inputValue={ToDoInputTextField.inputValue} handleDelete={handleDelete}/>
+      
+      <div className="fillTheScreen"></div>
     </main>
   );
 }
