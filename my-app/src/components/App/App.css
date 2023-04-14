@@ -1,5 +1,10 @@
 html, body {
   height: 100%;
+  
+}
+
+h1 {
+  font-family: Chalkduster, fantasy;
 }
 
 .fillTheScreen {
@@ -7,8 +12,31 @@ html, body {
   background-color: orange;
 }
 
+.textInput {
+  font-family: Chalkduster, fantasy;
+  margin-right: 20px;
+  padding: 0.5rem;
+  width: 200px;
+  border-radius: 7px;
+  font-size: 16px;
+}
 
+button {
+  border: none;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  background-color: #6297d8;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  width: 120px;
+}
 
+.deleteButton {
+  background-color: rgb(156, 31, 31);
+  margin-left: 20px;
+  height: 35px;
+}
 
 .App {
   text-align: center;
@@ -18,7 +46,9 @@ html, body {
 
  
 .App-logo {
-  height: 40vmin;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -50,10 +80,27 @@ html, body {
   to {
     transform: rotate(360deg);
   }
+}
 
-  
+ul {
+ 
+
+}
+
+li {
+  font-family: Bradley Hand, cursive;
+  font-size: 24px;
+  list-style-type: none;
+  font-weight: 700;
 
 }
 
 /* we want the text to be next to the button in the list
 we want to pretty up the buttons and spacing */
+
+.toDoItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; /* add margin bottom to create spacing between list items */
+}

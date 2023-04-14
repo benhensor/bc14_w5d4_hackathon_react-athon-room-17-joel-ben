@@ -12,6 +12,7 @@ export default function ToDoItem(props) {
 
     return <li className="toDoItem">
         <p>{ props.toDoText } </p>
+        
         <button className="deleteButton" onClick={props.handleDelete}>Delete</button>
     </li>
 }

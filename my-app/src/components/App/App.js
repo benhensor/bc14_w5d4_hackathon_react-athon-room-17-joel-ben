@@ -37,7 +37,7 @@ function App() {
 
   return (
         <main className="App">
-        <div className="App-logo">
+        <div className="App-logo-container">
         <img src={require("./soc-logo.png")} className="App-logo" alt="logo" />
         </div>      
       <h1>Welcome to our ToDo App!</h1>
