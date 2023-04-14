@@ -1,6 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import '../App.css';
+import Input from './Input';
+import List from './List';
+
 
 function App() {
   return (
